@@ -21,7 +21,6 @@
 			</nav>
 		</header>
 		<main>
-			<button onclick="topFunction()" id="scrollTopBtn" title="Go to top"><i class="far fa-arrow-to-top"></i></button>
 			<section id="banner">
 				<div class="content">
 					<h3>Portfolio</h3>
@@ -113,22 +112,22 @@
 				<div class="category">
 					<h2><i class="fal fa-desktop-alt"></i>Web Design & <br>Development</h2>
 					<div class="gallery">
-						<div class="gallery-item" data-content="web1">
+						<div class="gallery-item" onclick="document.getElementById('web1').style.display='block'">
 							<span style="background-image: url(img/web-brittlord.jpg);" title="Brittany Lord Hair Stylist Website"></span>
 						</div>
-						<div class="gallery-item">
+						<div class="gallery-item" onclick="document.getElementById('web2').style.display='block'">
 							<span style="background-image: url(img/web-octane5.jpg);" title="Octane5 International, LLC Website"></span>
 						</div>
-						<div class="gallery-item">
+						<div class="gallery-item" onclick="document.getElementById('web3').style.display='block'">
 							<span style="background-image: url(img/web-bmg.jpg);" title="Barta Media Group Website"></span>
 						</div>
-						<div class="gallery-item">
+						<div class="gallery-item" onclick="document.getElementById('web4').style.display='block'">
 							<span style="background-image: url(img/web-connectivity.jpg);" title="Connectivity Wireless Solutions Website"></span>
 						</div>
-						<div class="gallery-item">
+						<div class="gallery-item" onclick="document.getElementById('web5').style.display='block'">
 							<span style="background-image: url(img/web-stage3.jpg);" title="Stage 3 Fitness Website"></span>
 						</div>
-						<div class="gallery-item">
+						<div class="gallery-item" onclick="document.getElementById('web6').style.display='block'">
 							<span style="background-image: url(img/web-unshattered.jpg);" title="Unshattered Website"></span>
 						</div>
 					</div>
@@ -136,22 +135,22 @@
 				<div class="category">
 					<h2><i class="fal fa-file-invoice"></i>Branding & <br>Print Design</h2>
 					<div class="gallery">
-						<div class="gallery-item">
+						<div class="gallery-item" onclick="document.getElementById('print1').style.display='block'">
 							<span style="background-image: url(img/branding-rust&rose.jpg);" title="Rust & Rose Branding"></span>
 						</div>
-						<div class="gallery-item">
+						<div class="gallery-item" onclick="document.getElementById('print2').style.display='block'">
 							<span style="background-image: url(img/print-cat.jpg);" title="Licensee Rewards Program Brochure"></span>
 						</div>
-						<div class="gallery-item">
+						<div class="gallery-item" onclick="document.getElementById('print3').style.display='block'">
 							<span style="background-image: url(img/branding-nucmed.jpg);" title="NucMed Service Specialists Branding"></span>
 						</div>
-						<div class="gallery-item">
+						<div class="gallery-item" onclick="document.getElementById('print4').style.display='block'">
 							<span style="background-image: url(img/print-medicalaesthetics.jpg);" title="Medical Aesthetics Print Material"></span>
 						</div>
-						<div class="gallery-item">
+						<div class="gallery-item" onclick="document.getElementById('print5').style.display='block'">
 							<span style="background-image: url(img/branding-unshattered.jpg);" title="Unshattered Branding"></span>
 						</div>
-						<div class="gallery-item">
+						<div class="gallery-item" onclick="document.getElementById('print6').style.display='block'">
 							<span style="background-image: url(img/print-veinco.jpg);" title="Vein Company Brochure"></span>
 						</div>
 					</div>
@@ -159,9 +158,9 @@
 				<div class="category">
 					<h2><i class="fal fa-code"></i>Github Mini <br>Projects</h2>
 					<ul>
-						<li><a href="#" target="_blank">Flexbox Company Landing Page <span>HTML</span><span>CSS</span></a></li>
-						<li><a href="#" target="_blank">Design System <span>HTML</span><span>CSS</span></a></li>
-						<li><a href="#" target="_blank">Mixed Messages <span>JS</span></a></li>
+						<li><a href="https://github.com/kbowen1005/flexbox-company-page" target="_blank">Flexbox Company Landing Page <span>HTML</span><span>CSS</span></a></li>
+						<li><a href="https://github.com/kbowen1005/design-system" target="_blank">Design System <span>HTML</span><span>CSS</span></a></li>
+						<li><a href="https://github.com/kbowen1005/mixed-messages" target="_blank">Mixed Messages <span>JS</span></a></li>
 					</ul>
 				</div>
 			</section>
@@ -170,12 +169,12 @@
 				<h3>Let's talk!</h3>
 				<a href="mailto:kalyn.bowen4@gmail.com"><i class="fas fa-envelope"></i> kalyn.bowen4@gmail.com</a>
 				<ul>
-					<li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-					<li><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
-					<li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
-					<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/kalynbradford/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+					<li><a href="https://github.com/kbowen1005" target="_blank"><i class="fab fa-github"></i></a></li>
+					<li><a href="https://www.facebook.com/kalyn.bradford4/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+					<li><a href="https://www.instagram.com/kbowen1005/" target="_blank"><i class="fab fa-instagram"></i></a></li>
 				</ul>
-				<a class="button" href="#" download="Kalyn Bowen Resume 2021"><i class="far fa-download"></i> Download Resume</a>
+				<a class="button" href="KalynBowen_Resume_2021.pdf" target="_blank" download="Kalyn Bowen Resume 2021"><i class="far fa-download"></i> Download Resume</a>
 			</section>
 		</main>
 		<footer>
@@ -185,12 +184,127 @@
 		<!-- Modals -->
 		<div id="web1" class="modal">
 		  <div class="modal-content">
-			<span class="close"><i class="far fa-times"></i></span>
-			<span style="background-image: url(img/web-brittlord.jpg);" title="Brittany Lord Hair Stylist Website"></span>
-			<h3>Brittany Lord Hair Stylist Website</h3>
-			<p></p>
+			<span class="close" onclick="document.getElementById('web1').style.display='none'"><i class="fal fa-times"></i></span>
+			<div class="modal-inner">
+				<h2>Brittany Lord Hair Stylist Website</h2>
+				<p>Designed website to showcase the client's work and services and built a custom theme on WordPress.</p>
+				<a href="http://www.brittlord.com" target="_blank" class="button"><i class="fal fa-phone-laptop"></i> View Site</a>
+			</div>
+			<img src="img/web-brittlord.jpg" alt="Brittany Lord Hair Stylist Website">
 		  </div>
-		
+		</div>
+		<div id="web2" class="modal">
+		  <div class="modal-content">
+			<span class="close" onclick="document.getElementById('web2').style.display='none'"><i class="fal fa-times"></i></span>
+			<div class="modal-inner">
+				<h2>Octane5 International, LLC Website</h2>
+				<p>Designed website to showcase the company's work and services and built a custom theme on WordPress.</p>
+				<a href="http://www.octane5.com" target="_blank" class="button"><i class="fal fa-phone-laptop"></i> View Site</a>
+			</div>
+			<img src="img/web-octane5.jpg" alt="Octane5 International, LLC Website">
+		  </div>
+		</div>
+		<div id="web3" class="modal">
+		  <div class="modal-content">
+			<span class="close" onclick="document.getElementById('web3').style.display='none'"><i class="fal fa-times"></i></span>
+			<div class="modal-inner">
+				<h2>Barta Media Group Website</h2>
+				<p>Designed website to showcase the company's work and services and built a custom theme on WordPress.</p>
+				<a href="http://www.bartamediagroup.com" target="_blank" class="button"><i class="fal fa-phone-laptop"></i> View Site</a>
+			</div>
+			<img src="img/web-bmg.jpg" alt="Barta Media Group Website">
+		  </div>
+		</div>
+		<div id="web4" class="modal">
+		  <div class="modal-content">
+			<span class="close" onclick="document.getElementById('web4').style.display='none'"><i class="fal fa-times"></i></span>
+			<div class="modal-inner">
+				<h2>Connectivity Wireless Solutions Website</h2>
+				<p>Designed website to showcase the company's work and services and built a custom theme on WordPress.</p>
+			</div>
+			<img src="img/web-connectivity.jpg" alt="Connectivity Wireless Solutions Website">
+		  </div>
+		</div>
+		<div id="web5" class="modal">
+		  <div class="modal-content">
+			<span class="close" onclick="document.getElementById('web5').style.display='none'"><i class="fal fa-times"></i></span>
+			<div class="modal-inner">
+				<h2>Stage 3 Fitness Website</h2>
+				<p>Designed website to showcase the client's work and services and built a custom theme on WordPress.</p>
+				<a href="http://www.stage3fitness.com" target="_blank" class="button"><i class="fal fa-phone-laptop"></i> View Site</a>
+			</div>
+			<img src="img/web-stage3.jpg" alt="Stage 3 Fitness Website">
+		  </div>
+		</div>
+		<div id="web6" class="modal">
+		  <div class="modal-content">
+			<span class="close" onclick="document.getElementById('web6').style.display='none'"><i class="fal fa-times"></i></span>
+			<div class="modal-inner">
+				<h2>Unshattered Website</h2>
+				<p>Designed website to showcase the client's work and services and built a custom theme on WordPress.</p>
+			</div>
+			<img src="img/web-unshattered.jpg" alt="Unshattered Website">
+		  </div>
+		</div>
+		<div id="print1" class="modal">
+		  <div class="modal-content">
+			<span class="close" onclick="document.getElementById('print1').style.display='none'"><i class="fal fa-times"></i></span>
+			<div class="modal-inner">
+				<h2>Rust & Rose Branding</h2>
+				<p>Designed logo and brand guidelines for my band, Rust & Rose.</p>
+			</div>
+			<img src="img/branding-rust&rose.jpg" alt="Rust & Rose Branding">
+		  </div>
+		</div>
+		<div id="print2" class="modal">
+		  <div class="modal-content">
+			<span class="close" onclick="document.getElementById('print2').style.display='none'"><i class="fal fa-times"></i></span>
+			<div class="modal-inner">
+				<h2>Licensee Rewards Program Brochure</h2>
+				<p>Designed informational brochure for a licensee rewards program.</p>
+			</div>
+			<img src="img/print-cat.jpg" alt="Licensee Rewards Program Brochure">
+		  </div>
+		</div>
+		<div id="print3" class="modal">
+		  <div class="modal-content">
+			<span class="close" onclick="document.getElementById('print3').style.display='none'"><i class="fal fa-times"></i></span>
+			<div class="modal-inner">
+				<h2>NucMed Service Specialists Branding</h2>
+				<p>Designed logo and brand guidelines for NucMed Service Specialists.</p>
+			</div>
+			<img src="img/branding-nucmed.jpg" alt="NucMed Service Specialists Branding">
+		  </div>
+		</div>
+		<div id="print4" class="modal">
+		  <div class="modal-content">
+			<span class="close" onclick="document.getElementById('print4').style.display='none'"><i class="fal fa-times"></i></span>
+			<div class="modal-inner">
+				<h2>Medical Aesthetics Print Material</h2>
+				<p>Designed all marketing print material and billboards for Medical Aesthetics.</p>
+			</div>
+			<img src="img/print-medicalaesthetics.jpg" alt="Medical Aesthetics Print Material">
+		  </div>
+		</div>
+		<div id="print5" class="modal">
+		  <div class="modal-content">
+			<span class="close" onclick="document.getElementById('print5').style.display='none'"><i class="fal fa-times"></i></span>
+			<div class="modal-inner">
+				<h2>Unshattered Branding</h2>
+				<p>Designed logo and brand guidelines for Unshattered.</p>
+			</div>
+			<img src="img/branding-unshattered.jpg" alt="Unshattered Branding">
+		  </div>
+		</div>
+		<div id="print6" class="modal">
+		  <div class="modal-content">
+			<span class="close" onclick="document.getElementById('print6').style.display='none'"><i class="fal fa-times"></i></span>
+			<div class="modal-inner">
+				<h2>Vein Company Brochure</h2>
+				<p>Designed a marketing brochure for The Vein Company.</p>
+			</div>
+			<img src="img/print-veinco.jpg" alt="Vein Company Brochure">
+		  </div>
 		</div>
 	</body>
 </html>
