@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="preconnect" href="https://fonts.googleapis.com"> 
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Satisfy&family=Unica+One&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;600&family=Satisfy&family=Unica+One&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-rqn26AG5Pj86AF4SO72RK5fyefcQ/x32DNQfChxWvbXIyXFePlEktwD18fEz+kQU" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/style.css">
 		<script type="text/javascript" href="js/main.js"></script>
@@ -14,18 +14,19 @@
 		<header>
 			<nav>
 				<ul>
-					<li><a href="#">About Me</a></li>
-					<li><a href="#">Portfolio</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="#about">About Me</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
 		</header>
 		<main>
+			<button onclick="topFunction()" id="scrollTopBtn" title="Go to top"><i class="far fa-arrow-to-top"></i></button>
 			<section id="banner">
 				<div class="content">
 					<h3>Portfolio</h3>
 					<h1>Kalyn Bowen</h1>
-					<h4>Designer • Developer • Creator</h4>
+					<h4>Designer &bull; Developer &bull; Creator</h4>
 				</div>
 				<div class="headshot"></div>
 			</section>
@@ -35,28 +36,133 @@
 					<p>My passion for design goes all the way back to my childhood, where I was always known as the “artsy one”, slapping paint and stickers on everything I could find, including my first Yamaha guitar. I explored my creative side, first, with that very guitar, playing and writing original music. However, it was in college that I discovered my drive and desire to go into the field of graphic and web design.</p>
 					<p>I graduated from the University of Kentucky with Bachelor’s Degrees in Business Management and Marketing, as well as, a minor in Fine Art Photography and Design in 2014. While I was still in college I interned with a local design firm, Fusioncorp Design, and continued to work for them after college, broadening my horizons designing websites and logos, as well as, learning to develop and code in HTML, PHP, CSS and JS. Come 2015, this Georgia girl finally decided to make the move back home and began my career with Barta Media Group specializing in brand development and web design. In 2018, I stepped out of my comfort zone yet again, and became the UI/UX designer and developer at Octane5 International with a focus on improving the user experience of their SAAS and rebuilding their iOS app. I continue to strive to grow and expand my skills, constantly researching the latest design trends, and expanding my development skills. With my eye for detail and out of the box creativity, I bring your ideas to life.</p>
 				</div>
+				<div class="accent"></div>
 				<div class="skills">
 					<h3>Skills</h3>
+					<div class="skills-wrap">
+						<span data-customTooltip="Adobe Creative Cloud">
+							<img src="img/icon-creativecloud.svg" alt="Adobe Creative Cloud">
+						</span>
+						<span data-customTooltip="Adobe Illustrator">
+							<img src="img/icon-ai.svg" alt="Adobe Illustrator">
+						</span>
+						<span data-customTooltip="Adobe Photoshop">
+							<img src="img/icon-psd.svg" alt="Adobe Photoshop">
+						</span>
+						<span data-customTooltip="Adobe XD">
+							<img src="img/icon-xd.svg" alt="Adobe XD">
+						</span>
+						<span data-customTooltip="Adobe Indesign">
+							<img src="img/icon-indesign.svg" alt="Adobe Indesign">
+						</span>
+						<span data-customTooltip="HTML5">
+							<i class="fab fa-html5" title="HTML5"></i>
+						</span>
+						<span data-customTooltip="CSS3">
+							<i class="fab fa-css3" title="CSS3"></i>
+						</span>
+						<span data-customTooltip="Javascript">
+							<i class="fab fa-js" title="Javascript"></i>
+						</span>
+						<span data-customTooltip="jQuery">
+							<img src="img/icon-jquery.svg" alt="jQuery">
+						</span>
+						<span data-customTooltip="PHP">
+							<i class="fab fa-php" title="PHP"></i>
+						</span>
+						<span data-customTooltip="SQL">
+							<img src="img/icon-sql.svg" alt="SQL">
+						</span>
+						<span data-customTooltip="Django">
+							<img src="img/icon-django.svg" alt="Django">
+						</span>
+						<span data-customTooltip="Git">
+							<i class="fab fa-git" title="Git"></i>
+						</span>
+						<span data-customTooltip="WordPress & WooCommerce">
+							<i class="fab fa-wordpress" title="WordPress & WooCommerce"></i>
+						</span>
+						<span data-customTooltip="cPanel">
+							<i class="fab fa-cpanel" title="cPanel"></i>
+						</span>
+						<span data-customTooltip="React">
+							<i class="fab fa-react" title="React"></i>
+						</span>
+						<span data-customTooltip="Node">
+							<i class="fab fa-node" title="Node"></i>
+						</span>
+						<span data-customTooltip="Agile Scrum Environment">
+							<img src="img/icon-agile.svg" alt="Agile Scrum Environment">
+						</span>
+						<span data-customTooltip="Atlassian">
+							<i class="fab fa-atlassian" title="Atlassian"></i>
+						</span>
+						<span data-customTooltip="Github">
+							<i class="fab fa-github" title="Github"></i>
+						</span>
+						<span data-customTooltip="Invision">
+							<i class="fab fa-invision" title="Invision"></i>
+						</span>
+						<span data-customTooltip="Sketch">
+							<i class="fab fa-sketch" title="Sketch"></i>
+						</span>
+					</div>
 				</div>
 			</section>
 			<section id="portfolio">
 				<div class="category">
-					<h2>Web Design & Development</h2>
+					<h2><i class="fal fa-desktop-alt"></i>Web Design & <br>Development</h2>
 					<div class="gallery">
-						
+						<div class="gallery-item" data-content="web1">
+							<span style="background-image: url(img/web-brittlord.jpg);" title="Brittany Lord Hair Stylist Website"></span>
+						</div>
+						<div class="gallery-item">
+							<span style="background-image: url(img/web-octane5.jpg);" title="Octane5 International, LLC Website"></span>
+						</div>
+						<div class="gallery-item">
+							<span style="background-image: url(img/web-bmg.jpg);" title="Barta Media Group Website"></span>
+						</div>
+						<div class="gallery-item">
+							<span style="background-image: url(img/web-connectivity.jpg);" title="Connectivity Wireless Solutions Website"></span>
+						</div>
+						<div class="gallery-item">
+							<span style="background-image: url(img/web-stage3.jpg);" title="Stage 3 Fitness Website"></span>
+						</div>
+						<div class="gallery-item">
+							<span style="background-image: url(img/web-unshattered.jpg);" title="Unshattered Website"></span>
+						</div>
 					</div>
 				</div>
 				<div class="category">
-					<h2>Branding & Print Design</h2>
+					<h2><i class="fal fa-file-invoice"></i>Branding & <br>Print Design</h2>
 					<div class="gallery">
-						
+						<div class="gallery-item">
+							<span style="background-image: url(img/branding-rust&rose.jpg);" title="Rust & Rose Branding"></span>
+						</div>
+						<div class="gallery-item">
+							<span style="background-image: url(img/print-cat.jpg);" title="Licensee Rewards Program Brochure"></span>
+						</div>
+						<div class="gallery-item">
+							<span style="background-image: url(img/branding-nucmed.jpg);" title="NucMed Service Specialists Branding"></span>
+						</div>
+						<div class="gallery-item">
+							<span style="background-image: url(img/print-medicalaesthetics.jpg);" title="Medical Aesthetics Print Material"></span>
+						</div>
+						<div class="gallery-item">
+							<span style="background-image: url(img/branding-unshattered.jpg);" title="Unshattered Branding"></span>
+						</div>
+						<div class="gallery-item">
+							<span style="background-image: url(img/print-veinco.jpg);" title="Vein Company Brochure"></span>
+						</div>
 					</div>
 				</div>
 				<div class="category">
-					<h2>Github Mini Projects</h2>
-					<div class="gallery">
-						
-					</div>
+					<h2><i class="fal fa-code"></i>Github Mini <br>Projects</h2>
+					<ul>
+						<li><a href="#" target="_blank">Flexbox Company Landing Page <span>HTML</span><span>CSS</span></a></li>
+						<li><a href="#" target="_blank">Design System <span>HTML</span><span>CSS</span></a></li>
+						<li><a href="#" target="_blank">Mixed Messages <span>JS</span></a></li>
+					</ul>
 				</div>
 			</section>
 			<section id="contact">
@@ -64,16 +170,27 @@
 				<h3>Let's talk!</h3>
 				<a href="mailto:kalyn.bowen4@gmail.com"><i class="fas fa-envelope"></i> kalyn.bowen4@gmail.com</a>
 				<ul>
-					<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-					<li><a href="#"><i class="fab fa-github"></i></a></li>
-					<li><a href="#"><i class="fab fa-facebook"></i></a></li>
-					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+					<li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+					<li><a href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+					<li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+					<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
 				</ul>
-				<a href="#" download="Kalyn Bowen Resume 2021"><i class="far fa-download"></i> Download Resume</a>
+				<a class="button" href="#" download="Kalyn Bowen Resume 2021"><i class="far fa-download"></i> Download Resume</a>
 			</section>
 		</main>
 		<footer>
 			<p>&copy; 2021 Kalyn Bowen</p>
 		</footer>
+		
+		<!-- Modals -->
+		<div id="web1" class="modal">
+		  <div class="modal-content">
+			<span class="close"><i class="far fa-times"></i></span>
+			<span style="background-image: url(img/web-brittlord.jpg);" title="Brittany Lord Hair Stylist Website"></span>
+			<h3>Brittany Lord Hair Stylist Website</h3>
+			<p></p>
+		  </div>
+		
+		</div>
 	</body>
 </html>
